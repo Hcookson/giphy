@@ -1,0 +1,68 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+
+
+/* applying global settings */
+body{
+   margin: 0 auto;
+   text-align: center;
+   background-color: #EFEFEF;
+   font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.container {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: all ease-in-out .3s;
+    
+}
+
+.images-container {
+    display: flex;
+    overflow: hidden;
+    max-width: 50%;
+ 
+    
+    
+
+}
+
+
+/* button styling for all buttons */
+.js-btn {
+    padding: 12px 1px;
+    background-color: transparent;
+    border: none;
+    color: #57bc90;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all ease-in-out .3s;
+    outline: 0;
+    width: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+    
+    
+ 
+    
+
+}
+/* adds hover properties */
+.js-btn:hover {
+    border: none;
+    color: whitesmoke;
+    opacity: .9;
+    border-radius: 4px;
+    background-color: #a5a5af;
+}
+
+#gifDiv{
+    max-width: 50%;
+    align-content: center;
+}
